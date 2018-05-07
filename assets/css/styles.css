@@ -1,0 +1,49 @@
+
+/* Mis estilos */
+
+body {
+	margin: 0;
+}
+
+.jumbotron {
+	background-color: #00653B;
+}
+
+.logo-top {
+	max-width: 45px;
+}
+
+.section-1 {
+	height: 450px;
+	background: url("../images/banner1.jpg");
+}
+
+.thumbnail {
+	background-color: black;
+	opacity:0.6;
+	border-style: none;
+	border-radius: 35px;
+	height: 350px;
+}
+
+.thumbnail .caption {
+	color:white;
+	text-align: center;
+}
+
+.section-2 {
+	height: 450px;
+	background: url("../images/stars2.png");
+}
+
+.section-3 {
+	height: 450px;
+	background: url("../images/beans.png");
+}
+
+.btn {
+	background-color: transparent;
+	border-radius: 40px;
+	color:white;
+}
+
