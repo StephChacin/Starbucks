@@ -3,42 +3,67 @@
 
 body {
 	margin: 0;
+	color: #000;
 }
 
-.jumbotron {
-	background-color: #00653B;
+a {
+	color: #000;
 }
 
 .logo-top {
-	max-width: 45px;
+	max-width: 35px;
+	margin: 5px;
+}
+
+.navbar,
+.navbar-default {
+	border:0;
+	border-top: 6px solid #00653B;
+	display: block;
+	top: 0;
+	margin-bottom: 0;
+	border-radius: 0;
+	width: 100%;
+	position:fixed;
+	z-index: 1;
+
 }
 
 .section-1 {
 	height: 450px;
-	background: url("../images/banner1.jpg");
+	background: url("../images/banner1.jpg") no-repeat center top / cover transparent;
+	margin-top: 56px;
+	margin-bottom: 0.6em;
 }
 
 .thumbnail {
-	background-color: black;
-	opacity:0.6;
+	background-color: rgba(0,0,0,.6);
 	border-style: none;
 	border-radius: 35px;
 	height: 350px;
+	max-width: 700px;
+	display: inline-block;
+	margin-top: 50px;
 }
 
 .thumbnail .caption {
 	color:white;
+	opacity: .9;
 	text-align: center;
+	padding-top: 50px;
 }
+
 
 .section-2 {
 	height: 450px;
 	background: url("../images/stars2.png");
+	margin-bottom: 0.6em;
 }
 
 .section-3 {
 	height: 450px;
 	background: url("../images/beans.png");
+	margin-bottom: 0.6em;
 }
 
 .btn {
@@ -47,3 +72,28 @@ body {
 	color:white;
 }
 
+.ico {
+	font-size: 30px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.social {
+	text-align: center;
+	font-size: 35px;
+	padding: 10px;
+	display: inline;
+}
+
+.logo-footer {
+	max-width: 50px;
+	text-align: center;
+	display: block;
+	margin:0 auto;
+}
+
+@media screen and ( max-width: 992px) {
+	
+}

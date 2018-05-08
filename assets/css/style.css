@@ -1,0 +1,66 @@
+style.css
+/*Código escrito en clases */
+
+.mainHeader {
+	background-color: #f7f7f7;
+	border-top: 10px solid #00653B;
+}
+
+	.mainHeader__logo {
+		text-indent: -1000000000000px;
+		background: url("../images/logo.png") no-repeat center / auto 100%  transparent;
+		height: 60px;
+		width: 60px;
+		display: block;
+	}
+
+	.mainHeader__logo-image {
+		height: inherit;
+		width: inherit;
+		display:block;
+		float: left;
+	}
+
+	.mainHeader__nav{
+		text-align: right;
+		float: right;
+	}
+
+	.mainHeader__navlist {
+		text-align: right;
+		margin:3.5em 0;
+		float: right;
+	}
+
+	.mainHeader__navitem {
+		display: inline;
+		font-size: 1.5em;
+		margin:0 8px;
+		float: right;
+	}
+
+@media screen and ( max-width: 992px) {
+	.mainHeader__logo {
+		float: none;
+		margin:10px auto;
+	}
+	.mainHeader__navlist {
+		text-align: center;
+		margin: 1em 0;
+		padding: 0;
+	}
+}
+
+section.login {
+	background: url("../images/banner1.jpg") no-repeat center top / cover transparent;
+	min-height: 400px;
+	text-align: center;
+}
+
+.textBlock {
+	background-color: rgba(0,0,0,.3);
+	border-radius: 25px;
+	padding: 50px 25px;
+	text-align: center;
+	color: white;
+}
