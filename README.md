@@ -1,4 +1,4 @@
-###### taller-preparacion-prueba-starbucks
+﻿###### taller-preparacion-prueba-starbucks
 
 # Repaso pre-prueba HTML & CSS:
 
@@ -29,3 +29,5 @@ Recrea el siguiente landing page de **Starbucks**.
 Luego debes enviar los cambios (vía push)y subir el link del repositorio a la sección correspondiente en la plataforma [empieza](https://empieza.desafiolatam.com "Desafío Latam").
 
 Mucha suerte!
+
+https://stephchacin.github.io/Starbucks/index.html
